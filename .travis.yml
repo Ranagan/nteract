@@ -1,7 +1,10 @@
 sudo: false
 language: node_js
 node_js:
+# Current Long Term Stable (LTS) release
 - '6'
+# Next LTS
+- '8'
 env:
   matrix:
   - GROUP=coverage
